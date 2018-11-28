@@ -5,7 +5,7 @@ class Negociacao {
 		this._valor = valor;		
 	}
 
-	getData() {
+	get data() {
 		return this._data;
 	}
 
@@ -13,7 +13,7 @@ class Negociacao {
 		this._data = data;
 	}
 
-	getQuantidade() {
+	get quantidade() {
 		return this._quantidade;
 	}
 
@@ -21,7 +21,7 @@ class Negociacao {
 		this._quantidade = quantidade;
 	}
 
-	getValor() {
+	get valor() {
 		return this._valor;
 	}
 
@@ -29,7 +29,7 @@ class Negociacao {
 		this._valor = valor;
 	}
 
-	getVolume() {
+	get volume() {
 		return this._quantidade * this._valor;
 	}
 }
