@@ -21,4 +21,8 @@ class Negociacao {
 	get volume() {
 		return this._quantidade * this._valor;
 	}
+
+	toString() {
+		return "[ Data: " + data.value + ", Quantidade: " + quantidade.value + ", Valor: R$" + valor.value + " ]";
+	}
 }
