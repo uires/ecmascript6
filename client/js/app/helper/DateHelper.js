@@ -7,6 +7,9 @@ class DateHelper {
 	}
 
 	static transformDateToString(date) {
+		if(!/\d{4}-\d{2}-\d{2}-/.test(date)) {
+
+		}
 		return `${date.getDate()}/${date.getMonth() + 1}/${date.getUTCFullYear()}`;
 	}
 }
